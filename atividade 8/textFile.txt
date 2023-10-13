@@ -1,0 +1,2 @@
+Tamanho da string: 12
+String reversa: subinoonibus
