@@ -1,2 +1,3 @@
-Tamanho da string: 12
-String reversa: subinoonibus
+Tamanho da string: 6
+String reversa: 
+etset
