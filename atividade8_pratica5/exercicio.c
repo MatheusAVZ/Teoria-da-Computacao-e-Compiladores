@@ -1,24 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
- *     1) Crie um AFD para reconhecer a linguagem representada pela
- *     expressão regular 0*110*, sabendo que o alfabeto desta linguagem é
- *     {0,1}.
- *
- *     M = (Q,Σ, ꝺ, q0, F)
- *     Q = {q0, q1, q2, q3}
- *     Σ = 0, 1
- *     F = {q2}
- *     ꝺ(q0, 0) = q0
- *     ꝺ(q0, 1) = q1
- *     ꝺ(q1, 1) = q2
- *     ꝺ(q1, 0) = q3
- *     ꝺ(q2, 0) = q2
- *     ꝺ(q2, 1) = q3
- *     ꝺ(q3, 0) = q3
- *     ꝺ(q3, 1) = q3
- */
+// 1) Crie um AFD para reconhecer a linguagem representada pela
 void automato1() {
   int a, erro;
   while (1) {
@@ -60,26 +43,7 @@ void automato1() {
   }
 }
 
-/**
- *    2) Para o alfabeto {a, b}, crie um AFD que reconhece todas as palavras que não possuem dois a’s consecutivos.
- *
- *    M = (Q,Σ, ꝺ, q0, F)
- *    Q = {q0, q1, q2, q3, q4, q5}
- *    Σ = a, b
- *    F = {q1, q2, q3, q4}
- *    ꝺ(q0, a) = q1
- *    ꝺ(q0, b) = q3
- *    ꝺ(q1, a) = q5
- *    ꝺ(q1, b) = q2
- *    ꝺ(q2, a) = q1
- *    ꝺ(q2, b) = q2
- *    ꝺ(q3, a) = q4
- *    ꝺ(q3, b) = q3
- *    ꝺ(q4, a) = q5
- *    ꝺ(q4, b) = q3
- *    ꝺ(q5, a) = q5
- *    ꝺ(q5, b) = q5
- */
+// 2) Para o alfabeto {a, b}, crie um AFD que reconhece todas as palavras que não possuem dois a’s consecutivos.
 void automato2() {
   int a, erro;
   while (1) {
@@ -130,20 +94,7 @@ void automato2() {
   }
 }
 
-/**
- *    3) Crie um AFD que reconhece todas as palavras que tenham um número par de 0’s, sabendo que o alfabeto desta linguagem é {0,1}.
- *
- *    M = (Q,Σ, ꝺ, q0, F)
- *    Q = {q0, q1, q2}
- *    Σ = 0, 1
- *    F = {q2}
- *    ꝺ(q0, 0) = q1
- *    ꝺ(q0, 1) = q0
- *    ꝺ(q1, 0) = q2
- *    ꝺ(q1, 1) = q1
- *    ꝺ(q2, 0) = q1
- *    ꝺ(q2, 1) = q2
- */
+// 3) Crie um AFD que reconhece todas as palavras que tenham um número par de 0’s, sabendo que o alfabeto desta linguagem é {0,1}
 void automato3() {
   int a, erro;
   while (1) {
