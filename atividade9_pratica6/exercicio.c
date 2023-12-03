@@ -1,13 +1,6 @@
-//
-// Created by Richard on 19/11/2023.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 
-//
-// Created by Richard on 19/11/2023.
-//
 int main() {
   int a, erro;
   char estado = '1';
