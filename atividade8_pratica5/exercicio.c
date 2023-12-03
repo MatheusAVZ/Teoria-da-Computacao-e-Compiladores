@@ -21,9 +21,9 @@
  */
 void automato1() {
   int a, erro;
-  char estado = '0';
-  char estadoAnt = '0';
   while (1) {
+    char estado = '0';
+    char estadoAnt = '0';
     erro = 0;
     printf("\nEntre com os dados:");
     while ((a = getchar()) != '\n') {
@@ -82,9 +82,9 @@ void automato1() {
  */
 void automato2() {
   int a, erro;
+  while (1) {
   char estado = '0';
   char estadoAnt = '0';
-  while (1) {
     erro = 0;
     printf("\nEntre com os dados:");
     while ((a = getchar()) != '\n') {
@@ -146,9 +146,9 @@ void automato2() {
  */
 void automato3() {
   int a, erro;
-  char estado = '0';
-  char estadoAnt = '0';
   while (1) {
+    char estado = '0';
+    char estadoAnt = '0';
     erro = 0;
     printf("\nEntre com os dados:");
     while ((a = getchar()) != '\n') {
@@ -191,9 +191,9 @@ void automato3() {
  */
 void automato4() {
   int a, erro;
-  char estado = '0';
-  char estadoAnt = '0';
   while (1) {
+    char estado = '0';
+    char estadoAnt = '0';
     erro = 0;
     printf("\nEntre com os dados:");
     while ((a = getchar()) != '\n') {
@@ -238,9 +238,9 @@ void automato4() {
  */
 void automato5() {
   int a, erro;
-  char estado = '0';
-  char estadoAnt = '0';
   while (1) {
+    char estado = '0';
+    char estadoAnt = '0';
     erro = 0;
     printf("\nEntre com os dados:");
     while ((a = getchar()) != '\n') {
@@ -275,13 +275,11 @@ void automato5() {
   }
 }
 
-//
-// Created by Richard on 19/11/2023.
-//
+
 int main() {
-  // automato1();
+   automato1();
   // automato2();
   // automato3();
   // automato4();
-  automato5();
+ // automato5();
 }
