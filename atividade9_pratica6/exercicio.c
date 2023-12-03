@@ -25,14 +25,12 @@ int main() {
       } else if (estado == '2' && a == 'b') {
         estado = '6';
       } else if (estado == '3' && a == 'a') {
-        estado = '5';
+        estado = '2';
       } else if (estado == '3' && a == 'b') {
         estado = '6';
       } else if (estado == '4' && a == 'a') {
         estado = '7';
-      } else if (estado == '4' && a == 'b') {
-        estado = '8';
-      } else if (estado == '5' && a == 'a') {
+      }  else if (estado == '5' && a == 'a') {
         estado = '6';
       } else if (estado == '5' && a == 'b') {
         estado = '8';
