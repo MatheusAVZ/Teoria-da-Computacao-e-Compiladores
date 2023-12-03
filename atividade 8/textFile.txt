@@ -1,3 +1,0 @@
-Tamanho da string: 6
-String reversa: 
-etset
