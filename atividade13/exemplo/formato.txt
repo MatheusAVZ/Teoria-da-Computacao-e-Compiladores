@@ -1,0 +1,8 @@
+/*Prólogo*/
+
+%%
+/*Definições/Regras/Gramática*/
+
+%%
+
+/*Epílogo*/
